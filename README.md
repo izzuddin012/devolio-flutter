@@ -1,4 +1,4 @@
-# Flutter Web Portfolio
+# Devolio - Flutter Web Portfolio
 
 Personal developer portfolio built with Flutter Web — responsive, dark/light themed, and auto-deployed to GitHub Pages via GitHub Actions.
 
