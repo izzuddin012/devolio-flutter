@@ -59,7 +59,6 @@ class AppConstants {
 
   static const String location           = 'Your City, Country';
   static const String availabilityStatus = 'Open to opportunities';
-  // ⚠️  Avoid emoji here — flag/emoji characters load a 2.8 MB font at runtime
 }
 ```
 
@@ -119,8 +118,6 @@ Project(
 ),
 ```
 
-> **Tip for images:** Upload screenshots to a public GitHub repo and use `raw.githubusercontent.com` URLs. These are permanent, CORS-safe, and work reliably with `Image.network()` in Flutter Web. Avoid `github.com/user-attachments/assets/` URLs — they expire after 5 minutes.
-
 ### 5. Experience
 
 ```dart
@@ -179,7 +176,7 @@ The URL path equals the repo name. To change it (e.g. `github.io/portfolio`):
 fvm flutter build web --release --base-href /your-repo-name/ --wasm
 ```
 
-Output goes to `build/web/`. The `--wasm` flag uses the Skwasm renderer (~1.7 MB) instead of CanvasKit (~5.6 MB), cutting initial load time significantly.
+Output goes to `build/web/`.
 
 ---
 
